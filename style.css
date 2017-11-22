@@ -1,0 +1,38 @@
+html {
+  background-image: url(background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  position: absolute;
+  display: block;
+  margin-top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px 20px;
+}
+
+h1 {
+  color: #005b80;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+  width: 50%;
+  color: #005b80;
+}
+
+a {
+  text-decoration: none;
+}
+
+.intro {
+  align-content: center;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  width: 90vw;
+  height: auto;
+}
