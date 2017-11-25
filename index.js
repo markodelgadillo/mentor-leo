@@ -6,7 +6,8 @@ function label(tech) {
   tech.map(name => {
     console.log(name)
     let label = document.createElement('div')
-    label.setAttribute('id', name)
+    label.setAttribute('id', name.toLowerCase())
+    label.setAttribute('class', 'label')
     label.textContent = name
     labels.appendChild(label)
   })
