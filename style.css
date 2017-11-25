@@ -38,4 +38,12 @@ a {
 }
 
 .labels {
+  margin: 10vh auto;
+  width: 50%;
+  height: auto;
+}
+
+.label {
+  float: left;
+  margin-right: 5%;
 }
