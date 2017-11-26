@@ -1,4 +1,4 @@
-const technologies = ['HTML', 'CSS', 'Javascript', 'MongoDB', 'Node JS']
+const technologies = ['HTML', 'CSS', 'Javascript', 'MongoDB', 'NodeJS']
 const labels = document.querySelector('.labels')
 
 function label(tech) {
