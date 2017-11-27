@@ -5,9 +5,10 @@ html {
 }
 
 img {
-  position: absolute;
+  position: relative;
   display: block;
-  margin-top: 5%;
+  height: 100px;
+  width: 100px;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px 20px;
@@ -29,10 +30,79 @@ a {
 }
 
 .intro {
-  align-content: center;
   text-align: center;
   margin: 0 auto;
   position: relative;
   width: 90vw;
   height: auto;
+}
+
+.labels {
+  margin: 5vh auto;
+  width: 80%;
+}
+
+.label {
+  float: left;
+  padding: 1vw 3vw;
+  margin: 3vh 1vw;
+  border: 1px solid black;
+  -webkit-box-shadow: 0 8px 6px -5px black;
+  -moz-box-shadow: 0 8px 6px -5px black;
+  box-shadow: 0 8px 6px -5px black;
+}
+
+#html {
+  color: coral; /* Font color */
+  background: repeating-linear-gradient(
+    45deg,
+    #606dbc,
+    #606dbc 10px,
+    #465298 10px,
+    #465298 20px
+  );
+}
+
+#css {
+  color: blue; /* Font color */
+  background: repeating-linear-gradient(
+    45deg,
+    #ffa500,
+    #ffa500 10px,
+    #ff8c00 10px,
+    #ff8c00 20px
+  );
+}
+
+#javascript {
+  color: aquamarine; /* Font color */
+  background: repeating-linear-gradient(
+    45deg,
+    #990000,
+    #990000 10px,
+    #b20000 10px,
+    #b20000 20px
+  );
+}
+
+#mongodb {
+  color: white; /* Font color */
+  background: repeating-linear-gradient(
+    45deg,
+    #545454,
+    #545454 10px,
+    #999 10px,
+    #999 20px
+  );
+}
+
+#nodejs {
+  color: #f0e68c; /* Font color */
+  background: repeating-linear-gradient(
+    45deg,
+    #004000,
+    #004000 10px,
+    #008000 10px,
+    #008000 20px
+  );
 }
