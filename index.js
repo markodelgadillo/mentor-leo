@@ -2,7 +2,6 @@ const technologies = ['HTML', 'CSS', 'Javascript', 'MongoDB', 'NodeJS']
 const labels = document.querySelector('.labels')
 
 function label(tech) {
-  console.log(tech)
   tech.map(name => {
     console.log(name)
     let label = document.createElement('div')
