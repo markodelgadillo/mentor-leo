@@ -8,8 +8,18 @@ const jobs = [
   'Android developer'
 ]
 
-const $jobList = document.querySelector('.job-list')
-$jobList.textContent = 'TEST'
+function jobList(jobs) {
+  console.log(jobs)
+  const $jobList = document.querySelector('.job-list')
+  $list = document.createElement('ul')
+  $jobList.appendChild($list)
+  jobs.map(job => {
+    $job = document.createElement('li')
+    $job.textContent = job
+    $list.appendChild($job)
+  })
+  return $list
+}
 
 const $labels = document.querySelector('.labels')
 
@@ -22,6 +32,7 @@ function label(tech) {
     $label.textContent = name
     $labels.appendChild($label)
   })
+  jobList(jobs)
   return $labels
 }
 
