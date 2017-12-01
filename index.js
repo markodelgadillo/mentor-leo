@@ -9,9 +9,9 @@ const jobs = [
 ]
 
 function jobList(jobs) {
-  console.log(jobs)
   const $jobList = document.querySelector('.job-list')
   $list = document.createElement('ul')
+  $list.setAttribute('class', 'job')
   $jobList.appendChild($list)
   jobs.map(job => {
     $job = document.createElement('li')
@@ -25,8 +25,7 @@ const $labels = document.querySelector('.labels')
 
 function label(tech) {
   tech.map(name => {
-    console.log(name)
-    let $label = document.createElement('div')
+    const $label = document.createElement('div')
     $label.setAttribute('id', name.toLowerCase())
     $label.setAttribute('class', 'label')
     $label.textContent = name
