@@ -52,6 +52,16 @@ a {
   box-shadow: 0 8px 6px -5px black;
 }
 
+.job-list {
+  text-align: center;
+  position: relative;
+  margin: 25vh auto;
+}
+
+.job {
+  list-style: none;
+}
+
 #html {
   color: coral; /* Font color */
   background: repeating-linear-gradient(
